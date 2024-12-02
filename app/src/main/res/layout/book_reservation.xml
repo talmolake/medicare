@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#B6BCE1"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="100dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp">
+        <TextView
+            android:id="@+id/date_picker_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Date:"
+            />
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit_text_background"
+            android:focusable="false"
+            android:hint="Select Date"
+            android:paddingLeft="7dp"
+            android:inputType="none"
+            android:onClick="showDatePickerDialog"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp">
+        <TextView
+            android:id="@+id/timepicker_container"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Time:"
+            android:layout_marginEnd="20dp" />
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_text_background"
+                android:focusable="false"
+                android:hint="Select Time"
+                android:paddingLeft="7dp"
+                android:inputType="none"
+                android:onClick="showTimePickerDialog"/>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="1400dp"
+        android:text="Confirm"/>
+
+</LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

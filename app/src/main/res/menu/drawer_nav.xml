@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/book_appointments"
+            android:title="Book an appointment" />
+        <item
+            android:id="@+id/view_appointments"
+            android:title="View appointments" />
+        <item
+            android:id="@+id/choosecategoreies"
+            android:title="Choose categories" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:title="Log out"/>
+</menu>

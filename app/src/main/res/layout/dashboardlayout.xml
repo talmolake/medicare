@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/greetingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELLO USER!"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose A Category &amp;"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_marginTop="60dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find The Specialist"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeColor="@android:color/transparent"
+        app:strokeWidth="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="3"
+        android:layout_marginTop="16dp">
+
+        <!-- Icons for categories -->
+
+        <LinearLayout
+            android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/all"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/firstaid"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="All"
+            android:scaleType="centerInside"
+            android:backgroundTint="@color/medicare"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/cardiology"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="Cardiology"
+            android:src="@drawable/cardiology"
+            android:scaleType="centerInside"
+            android:backgroundTint="#BBE1E4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cardiology"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/medicine"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="Medicine"
+            android:src="@drawable/medicine"
+            android:scaleType="centerInside"
+            android:backgroundTint="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/hematology"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="hematology"
+            android:src="@drawable/hermatology"
+            android:scaleType="centerInside"
+            android:backgroundTint="#CDE1B6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hematology"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+        <!-- Add more ImageViews for other categories -->
+
+    </GridLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeColor="@android:color/transparent"
+        app:strokeWidth="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="3"
+            android:layout_marginTop="16dp">
+
+            <!-- Icons for categories -->
+
+            <LinearLayout
+                android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/physio"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="physio"
+                android:src="@drawable/physio"
+                android:scaleType="centerInside"
+                android:backgroundTint="@color/lightblue"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="physio"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/optemery"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="optemery"
+                android:src="@drawable/opt"
+                android:scaleType="centerInside"
+                android:backgroundTint="#E1B6D0"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Optimery"
+                    android:layout_gravity="left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/orthopedy"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="orthopedy"
+                android:src="@drawable/bones"
+                android:scaleType="centerInside"
+                android:backgroundTint="#E1B6B6"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orthopedy"
+                    android:layout_gravity="left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/nerphrology"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="nerphrology"
+                android:src="@drawable/nerphology"
+                android:scaleType="centerInside"
+                android:backgroundTint="@color/medicare"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nephrology"
+                    android:layout_gravity="left"/>
+            </LinearLayout>
+
+            <!-- Add more ImageViews for other categories -->
+
+        </GridLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:strokeColor="@android:color/transparent"
+        app:strokeWidth="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="3"
+            android:layout_marginTop="16dp">
+
+            <!-- Icons for categories -->
+            <LinearLayout
+                android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/neurology"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="All"
+                android:src="@drawable/neurology"
+                android:scaleType="centerInside"
+                android:backgroundTint="#E1C7B6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neurology"
+                android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/pulmonology"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="pulmonology"
+                android:src="@drawable/pulmonology"
+                android:scaleType="centerInside"
+                android:backgroundTint="#B6E1BD"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pulmonology"
+                    android:layout_gravity="left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/gastro"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="gastro"
+                android:src="@drawable/gastro"
+                android:scaleType="centerInside"
+                android:backgroundTint="@color/medicare"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gastro"
+                    android:layout_gravity="left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/dental"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:contentDescription="dental"
+                android:src="@drawable/dentalll"
+                android:scaleType="centerInside"
+                android:backgroundTint="@color/lightblue"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dental"
+                    android:layout_gravity="left"/>
+            </LinearLayout>
+
+            <!-- Add more ImageViews for other categories -->
+
+        </GridLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

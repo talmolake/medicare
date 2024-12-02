@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="Appointments_list">
+        <State />
+      </entry>
+      <entry key="DoctorProfile">
+        <State />
+      </entry>
+      <entry key="DoctorsPage">
+        <State />
+      </entry>
+      <entry key="DrawerNav">
+        <State />
+      </entry>
+      <entry key="Settings_Page">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\mtec22-002\.android\avd\Nexus_6_API_34_2.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-05-18T17:13:33.074432400Z" />
+        </State>
+      </entry>
+    </value>
+  </component>
+</project>
