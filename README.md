@@ -48,11 +48,11 @@ This application is a medicare application that allows users to book appointment
  </div>
  
 <h3>Entering Prescriptions and Medication:</h3> <br/>
-<img src="https://imgur.com/1hFbPQY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/1hFbPQY.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>Logout:</h3>  <br/>
-<img src="https://imgur.com/TFZvHN6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/TFZvHN6.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
