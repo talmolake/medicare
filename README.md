@@ -37,13 +37,13 @@ This application is a medicare application that allows users to book appointment
     <img src="https://imgur.com/ClXqQpd.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
     <img src="https://imgur.com/t0pyuCg.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
     <img src="https://imgur.com/jQlgwJl.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
-    <img src="https://imgur.com/oC5ZUZz.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
+    <img src="https://imgur.com/oC5ZUZz.png" alt="Favotites Screen" style="max-width: 20%; height: 40%;">
  </div>
 
  <h3>Viewing Appointments: </h3>
 <div style="display: flex; justify-content: space-around;">
     <img src="https://imgur.com/d17UaNw.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
-    <img src="https://imgur.com/Gln8ZVP.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
+    <img src="https://imgur.com/Gln8ZVP.png" alt="Favotites Screen" style="max-width: 20%; height: 40%;">
     <img src="https://imgur.com/pRmC4Sa.png" alt="Favotites Screen" style="max-width: 20%; height: 50%;">
  </div>
  
