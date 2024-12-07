@@ -56,12 +56,3 @@ This application is a medicare application that allows users to book appointment
 <br />
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
